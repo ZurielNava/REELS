@@ -1,0 +1,14 @@
+/* ===== Estilos de los módulos (cards) ===== */
+.card-shadow { 
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .15);
+}
+
+.focus-ring:focus { 
+  outline: 3px solid #ef4444; 
+  outline-offset: 3px; 
+}
+
+/* Altura responsiva para las tarjetas */
+.card-h { height: 12rem; }              /* ~h-48 */
+@media (min-width: 768px) { .card-h { height: 14rem; } }  /* ~h-56 */
+@media (min-width: 1024px){ .card-h { height: 16rem; } }  /* ~h-64 */
